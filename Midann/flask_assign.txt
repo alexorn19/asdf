@@ -1,0 +1,28 @@
+Implement a program in Flask that retrieves information from http://apis.is/petrol. The web application should
+among other things, publish information on fuel suppliers in Iceland along with their gas stations
+
+On the project page, you should publish:
+1. List of all fuel suppliers in the Json directory at http://apis.is/petrol
+• Each vendor appears only once on the front page
+• Pictures (logo) of the vendor are on the cover - embossed with Json.
+• Date of last updated .json files (timestampPriceCheck) with
+Icelandic format.
+• Lowest price of 95 octane gasoline and diesel oil at any given time and name
+the relevant dealer.
+2. When selecting a vendor
+• A list of all the dealer stations is displayed.
+3. When the dealer gas station is selected, it appears
+• Location
+• Price of 95 octane gasoline
+• price of diesel fuel
+• Possibility to check the location of gas stations in google maps
+Other issues:
+• Use dynamic routing.
+• Have template and style page (.css) - free version.
+• Error route 404 - if you enter a non-existent URL
+
+Example of finished project: https://midverk-h19.herokuapp.com/
+Doesn't have to look like this, only an example, css and html part doesn't matter as long as everything works properly. Ignore the concert part of the example. I will also push it to Heroku so no need to worry about that.
+
+Don't worry about Icelandic language, just translate to english and do it in english, i will take care of the translation after that :)
+If there's problems with the pictures just let me know and i'll provide them to you.
